@@ -6,11 +6,15 @@ import { customReqHeader } from "./utils";
 import { biliNFTVideoFetch } from "./biliNFT";
 
 export default function App() {
-  const [identifier, setId] = React.useState<string>();
+  const [identifier, setId] = React.useState<string>(
+    "https://rawgit.com/mediaelement/mediaelement-files/master/big_buck_bunny.mp4"
+  );
 
+  /**
   React.useEffect(() => {
     biliNFTVideoFetch({ act_id: "100531", index: 0 }).then((v) => setId(v));
   }, []);
+  */
 
   if (!identifier) return <View />;
 
