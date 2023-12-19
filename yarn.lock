@@ -5302,6 +5302,11 @@ react-is@^17.0.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
+react-native-video@^6.0.0-beta.2:
+  version "6.0.0-beta.2"
+  resolved "https://registry.yarnpkg.com/react-native-video/-/react-native-video-6.0.0-beta.2.tgz#b3dce837300a99c2e6db0adf0a1e215906472ad9"
+  integrity sha512-5BHUN82Q3Op9hN8Dwe2tv7xIzVBVYaYOFyS67jdkljVdUBa7V75lMka5ovE4OSycII4vk6p8pF6QuxrkAX+nIg==
+
 react-native@0.72.6:
   version "0.72.6"
   resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.72.6.tgz#9f8d090694907e2f83af22e115cc0e4a3d5fa626"

@@ -1,9 +1,7 @@
 import React from "react";
-import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
-import { Video, ResizeMode } from "expo-av";
+import Video, { ResizeMode } from "react-native-video";
 import { customReqHeader } from "./utils";
-import { biliNFTVideoFetch } from "./biliNFT";
 
 export default function App() {
   const [identifier, setId] = React.useState<string>(
@@ -26,10 +24,11 @@ export default function App() {
       }}
       style={{ width: "100%", height: "100%", position: "absolute" }}
       onError={console.error}
-      isLooping
+      repeat
+      muted
       resizeMode={ResizeMode.COVER}
-      shouldPlay
-      isMuted
+      disableFocus={true}
+      preventsDisplaySleepDuringVideoPlayback={false}
     ></Video>
   );
 }
